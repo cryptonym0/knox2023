@@ -39,6 +39,20 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
+element {
+	--red: #ff3e07;
+	--yellow: #f2b208;
+	--blue: #40bbc9;
+	--green: #033a1e;
+	--black: #111111;
+	--white: #fff;
+	--color1: #ff3e07;
+	--color2: #f2b208;
+	--color3: #033a1e;
+	--color4: #40bbc9;
+	--maindark: #111111;
+	--mainlight: #fff;
+}
 
 h1,
 h2,
