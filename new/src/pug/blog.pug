@@ -1,0 +1,233 @@
+doctype html
+html(lang='zxx')
+    head
+        meta(charset='UTF-8')
+        meta(name='description', content='Manup Template')
+        meta(name='keywords', content='Manup, unica, creative, html')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+        title Manup | Template
+        // Google Font
+        link(href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap', rel='stylesheet')
+
+        script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js', crossorigin='anonymous')
+        // Css Styles
+        link(rel='stylesheet', href='css/bootstrap.min.css', type='text/css')
+        link(rel='stylesheet', href='css/elegant-icons.css', type='text/css')
+        link(rel='stylesheet', href='css/owl.carousel.min.css', type='text/css')
+        link(rel='stylesheet', href='css/magnific-popup.css', type='text/css')
+        link(rel='stylesheet', href='css/slicknav.min.css', type='text/css')
+        link(rel='stylesheet', href='css/styles.css', type='text/css')
+    body
+        // Page Preloder
+        #preloder
+            .loader
+        // Header Section Begin
+        header.header-section.header-normal
+            .container
+                .logo
+                    a(href='./index.pug')
+                        img(src='assets/img/logo.png', alt='')
+                .nav-menu
+                    nav.mainmenu.mobile-menu
+                        ul
+                            li
+                                a(href='./index.pug') Home
+                            li
+                                a(href='about-us.pug') About
+                            li
+                                a(href='./speaker.pug') Sponsors
+                                ul.dropdown
+                                    li
+                                        a(href='#') Jayden
+                                    li
+                                        a(href='#') Sara
+                                    li
+                                        a(href='#') Emma
+                                    li
+                                        a(href='#') Harriet
+                            li
+                                a(href='./schedule.pug') Schedule
+                            li.active
+                                a(href='./blog.html') Blog
+                            li
+                                a(href='./contact.pug') Contacts
+                    a.primary-btn.top-btn(href='#')
+                        i.fab.fa-ticket
+                        |  Ticket
+                #mobile-menu-wrap
+        // Header End
+        // Breadcrumb Section Begin
+        section.breadcrumb-section
+            .container
+                .row
+                    .col-lg-12
+                        .breadcrumb-text
+                            h2 News Latest
+                            .bt-option
+                                a(href='#') Home
+                                span Our Blogs
+        // Breadcrumb Section End
+        // Blog Section Begin
+        section.blog-section.spad
+            .container
+                .row
+                    .col-lg-6
+                        .row
+                            .col-md-6
+                                .blog-item.set-bg(data-setbg='assets/img/blog/blog-1.jpg')
+                                    .bi-tag.bg-gradient Foody
+                                    .bi-text
+                                        h5
+                                            a(href='./blog-details.pug') Google&apos;s AI Assistant Aims to Transcend the Smart Speaker
+                                        span
+                                            i.fab.fa-clock-o
+                                            |  19th May, 2019
+                            .col-md-6
+                                .blog-item.set-bg(data-setbg='assets/img/blog/blog-2.jpg')
+                                    .bi-tag.bg-gradient Foody
+                                    .bi-text
+                                        h5
+                                            a(href='./blog-details.pug') Free Classifiends Using Them To Promote
+                                        span
+                                            i.fab.fa-clock-o
+                                            |  19th May, 2019
+                        .blog-item.set-bg.large-item(data-setbg='assets/img/blog/blog-4.jpg')
+                            .bi-tag.bg-gradient Business
+                            .bi-text
+                                h3
+                                    a(href='./blog-details.pug') &quot;Inspired By Modiji, Will Make Biopic&quot;: BJP&apos;s Ravi Kishan
+                                span
+                                    i.fab.fa-clock-o
+                                    |  19th May, 2019
+                        .row
+                            .col-md-6
+                                .blog-item.set-bg(data-setbg='assets/img/blog/blog-7.jpg')
+                                    .bi-tag.bg-gradient Foody
+                                    .bi-text
+                                        h5
+                                            a(href='./blog-details.pug') The ZenBook With a Touchpad That Lights Up
+                                        span
+                                            i.fab.fa-clock-o
+                                            |  19th May, 2019
+                            .col-md-6
+                                .blog-item.set-bg(data-setbg='assets/img/blog/blog-8.jpg')
+                                    .bi-tag.bg-gradient Foody
+                                    .bi-text
+                                        h5
+                                            a(href='./blog-details.pug') Is the Detel Posh a Posh Speaker?
+                                        span
+                                            i.fab.fa-clock-o
+                                            |  19th May, 2019
+                    .col-lg-6
+                        .blog-item.set-bg.large-item(data-setbg='assets/img/blog/blog-3.jpg')
+                            .bi-tag.bg-gradient Marketing
+                            .bi-text
+                                h3
+                                    a(href='./blog-details.pug')
+                                        | Lok Sabha Elections 2019 - In BJP, Only &apos;&apos;Tai&apos;&apos; Can Admonish Me: PM Modi On Sumitra
+                                        | Mahajan
+                                span
+                                    i.fab.fa-clock-o
+                                    |  19th May, 2019
+                        .row
+                            .col-md-6
+                                .blog-item.set-bg(data-setbg='assets/img/blog/blog-5.jpg')
+                                    .bi-tag.bg-gradient Design
+                                    .bi-text
+                                        h5
+                                            a(href='./blog-details.pug') The Biggest Stories Of January 06, 2019
+                                        span
+                                            i.fab.fa-clock-o
+                                            |  19th May, 2019
+                            .col-md-6
+                                .blog-item.set-bg(data-setbg='assets/img/blog/blog-6.jpg')
+                                    .bi-tag.bg-gradient UX/UI
+                                    .bi-text
+                                        h5
+                                            a(href='./blog-details.pug') Alexa Can Now Show You Things!
+                                        span
+                                            i.fab.fa-clock-o
+                                            |  19th May, 2019
+                        .blog-item.set-bg(data-setbg='assets/img/blog/blog-9.jpg')
+                            .bi-tag.bg-gradient Marketing
+                            .bi-text
+                                h3
+                                    a(href='./blog-details.pug') &quot;Still Waiting For BJP To Make Me Chief Minister&quot;: Goa Assembly Speaker
+                                span
+                                    i.fab.fa-clock-o
+                                    |  19th May, 2019
+                .load-more.blog-more
+                    a.primary-btn(href='#') Load More
+        // Blog Section End
+        // Footer Section Begin
+        footer.footer-section
+            .container
+                .partner-logo.owl-carousel
+                    a.pl-table(href='#')
+                        .pl-tablecell
+                            img(src='assets/img/partner-logo/logo-1.png', alt='')
+                    a.pl-table(href='#')
+                        .pl-tablecell
+                            img(src='assets/img/partner-logo/logo-2.png', alt='')
+                    a.pl-table(href='#')
+                        .pl-tablecell
+                            img(src='assets/img/partner-logo/logo-3.png', alt='')
+                    a.pl-table(href='#')
+                        .pl-tablecell
+                            img(src='assets/img/partner-logo/logo-4.png', alt='')
+                    a.pl-table(href='#')
+                        .pl-tablecell
+                            img(src='assets/img/partner-logo/logo-5.png', alt='')
+                    a.pl-table(href='#')
+                        .pl-tablecell
+                            img(src='assets/img/partner-logo/logo-6.png', alt='')
+                .row
+                    .col-lg-12
+                        .footer-text
+                            .ft-logo
+                                a.footer-logo(href='#')
+                                    img(src='assets/img/footer-logo.png', alt='')
+                            ul
+                                li
+                                    a(href='#') Home
+                                li
+                                    a(href='#') Sponsors
+                                li
+                                    a(href='#') Schedule
+                                li
+                                    a(href='#') Blog
+                                li
+                                    a(href='#') Contact
+                            .copyright-text
+                                p
+                                    // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                                    | Copyright &copy;
+                                    script.
+                                        document.write(new Date().getFullYear());
+                                    |  All rights reserved | This template is made with
+                                    i.fab.fa-heart(aria-hidden='true')
+                                    |  by
+                                    a(href='https://colorlib.com', target='_blank') Colorlib
+                                    // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                            .ft-social
+                                a(href='#')
+                                    i.fab.fa-facebook
+                                a(href='#')
+                                    i.fab.fa-twitter
+                                a(href='#')
+                                    i.fab.fa-linkedin
+                                a(href='#')
+                                    i.fab.fa-instagram
+                                a(href='#')
+                                    i.fab.fa-youtube-play
+        // Footer Section End
+        // Js Plugins
+        script(src='js/jquery-3.3.1.min.js')
+        script(src='js/bootstrap.min.js')
+        script(src='js/jquery.magnific-popup.min.js')
+        script(src='js/jquery.countdown.min.js')
+        script(src='js/jquery.slicknav.js')
+        script(src='js/owl.carousel.min.js')
+        script(src='js/main.js')

@@ -1,0 +1,4749 @@
+$color_1: #59c5dc;
+$font-family_1: 'ElegantIcons';
+$font-family_2: consolas, monospace;
+
+@font-face {
+	font-family: 'ElegantIcons';
+	src: url('../assets/fonts/ElegantIcons.eot');
+	src: url('../assets/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+	url('../assets/fonts/ElegantIcons.woff') format('woff'),
+	url('../assets/fonts/ElegantIcons.ttf') format('truetype'),
+	url('../assets/fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="your-class-prefix"] {
+*/
+[data-icon] {
+	&:before {
+		font-family: $font-family_1;
+		content: attr(data-icon);
+		speak: none;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+.arrow_up {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\21";
+	}
+}
+.arrow_down {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\22";
+	}
+}
+.arrow_left {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\23";
+	}
+}
+.arrow_right {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\24";
+	}
+}
+.arrow_left-up {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\25";
+	}
+}
+.arrow_right-up {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\26";
+	}
+}
+.arrow_right-down {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\27";
+	}
+}
+.arrow_left-down {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\28";
+	}
+}
+.arrow-up-down {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\29";
+	}
+}
+.arrow_up-down_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\2a";
+	}
+}
+.arrow_left-right_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\2b";
+	}
+}
+.arrow_left-right {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\2c";
+	}
+}
+.arrow_expand_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\2d";
+	}
+}
+.arrow_expand_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\2e";
+	}
+}
+.arrow_condense {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\2f";
+	}
+}
+.arrow_expand {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\30";
+	}
+}
+.arrow_move {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\31";
+	}
+}
+.arrow_carrot-up {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\32";
+	}
+}
+.arrow_carrot-down {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\33";
+	}
+}
+.arrow_carrot-left {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\34";
+	}
+}
+.arrow_carrot-right {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\35";
+	}
+}
+.arrow_carrot-2up {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\36";
+	}
+}
+.arrow_carrot-2down {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\37";
+	}
+}
+.arrow_carrot-2left {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\38";
+	}
+}
+.arrow_carrot-2right {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\39";
+	}
+}
+.arrow_carrot-up_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\3a";
+	}
+}
+.arrow_carrot-down_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\3b";
+	}
+}
+.arrow_carrot-left_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\3c";
+	}
+}
+.arrow_carrot-right_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\3d";
+	}
+}
+.arrow_carrot-2up_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\3e";
+	}
+}
+.arrow_carrot-2down_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\3f";
+	}
+}
+.arrow_carrot-2left_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\40";
+	}
+}
+.arrow_carrot-2right_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\41";
+	}
+}
+.arrow_triangle-up {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\42";
+	}
+}
+.arrow_triangle-down {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\43";
+	}
+}
+.arrow_triangle-left {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\44";
+	}
+}
+.arrow_triangle-right {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\45";
+	}
+}
+.arrow_triangle-up_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\46";
+	}
+}
+.arrow_triangle-down_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\47";
+	}
+}
+.arrow_triangle-left_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\48";
+	}
+}
+.arrow_triangle-right_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\49";
+	}
+}
+.arrow_back {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\4a";
+	}
+}
+.icon_minus-06 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\4b";
+	}
+}
+.icon_plus {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\4c";
+	}
+}
+.icon_close {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\4d";
+	}
+}
+.icon_check {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\4e";
+	}
+}
+.icon_minus_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\4f";
+	}
+}
+.icon_plus_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\50";
+	}
+}
+.icon_close_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\51";
+	}
+}
+.icon_check_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\52";
+	}
+}
+.icon_zoom-out_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\53";
+	}
+}
+.icon_zoom-in_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\54";
+	}
+}
+.icon_search {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\55";
+	}
+}
+.icon_box-empty {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\56";
+	}
+}
+.icon_box-selected {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\57";
+	}
+}
+.icon_minus-box {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\58";
+	}
+}
+.icon_plus-box {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\59";
+	}
+}
+.icon_box-checked {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\5a";
+	}
+}
+.icon_circle-empty {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\5b";
+	}
+}
+.icon_circle-slelected {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\5c";
+	}
+}
+.icon_stop_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\5d";
+	}
+}
+.icon_stop {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\5e";
+	}
+}
+.icon_pause_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\5f";
+	}
+}
+.icon_pause {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\60";
+	}
+}
+.icon_menu {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\61";
+	}
+}
+.icon_menu-square_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\62";
+	}
+}
+.icon_menu-circle_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\63";
+	}
+}
+.icon_ul {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\64";
+	}
+}
+.icon_ol {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\65";
+	}
+}
+.icon_adjust-horiz {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\66";
+	}
+}
+.icon_adjust-vert {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\67";
+	}
+}
+.icon_document_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\68";
+	}
+}
+.icon_documents_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\69";
+	}
+}
+.icon_pencil {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\6a";
+	}
+}
+.icon_pencil-edit_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\6b";
+	}
+}
+.icon_pencil-edit {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\6c";
+	}
+}
+.icon_folder-alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\6d";
+	}
+}
+.icon_folder-open_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\6e";
+	}
+}
+.icon_folder-add_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\6f";
+	}
+}
+.icon_info_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\70";
+	}
+}
+.icon_error-oct_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\71";
+	}
+}
+.icon_error-circle_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\72";
+	}
+}
+.icon_error-triangle_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\73";
+	}
+}
+.icon_question_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\74";
+	}
+}
+.icon_question {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\75";
+	}
+}
+.icon_comment_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\76";
+	}
+}
+.icon_chat_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\77";
+	}
+}
+.icon_vol-mute_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\78";
+	}
+}
+.icon_volume-low_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\79";
+	}
+}
+.icon_volume-high_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\7a";
+	}
+}
+.icon_quotations {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\7b";
+	}
+}
+.icon_quotations_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\7c";
+	}
+}
+.icon_clock_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\7d";
+	}
+}
+.icon_lock_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\7e";
+	}
+}
+.icon_lock-open_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e000";
+	}
+}
+.icon_key_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e001";
+	}
+}
+.icon_cloud_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e002";
+	}
+}
+.icon_cloud-upload_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e003";
+	}
+}
+.icon_cloud-download_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e004";
+	}
+}
+.icon_image {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e005";
+	}
+}
+.icon_images {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e006";
+	}
+}
+.icon_lightbulb_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e007";
+	}
+}
+.icon_gift_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e008";
+	}
+}
+.icon_house_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e009";
+	}
+}
+.icon_genius {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e00a";
+	}
+}
+.icon_mobile {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e00b";
+	}
+}
+.icon_tablet {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e00c";
+	}
+}
+.icon_laptop {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e00d";
+	}
+}
+.icon_desktop {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e00e";
+	}
+}
+.icon_camera_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e00f";
+	}
+}
+.icon_mail_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e010";
+	}
+}
+.icon_cone_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e011";
+	}
+}
+.icon_ribbon_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e012";
+	}
+}
+.icon_bag_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e013";
+	}
+}
+.icon_creditcard {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e014";
+	}
+}
+.icon_cart_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e015";
+	}
+}
+.icon_paperclip {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e016";
+	}
+}
+.icon_tag_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e017";
+	}
+}
+.icon_tags_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e018";
+	}
+}
+.icon_trash_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e019";
+	}
+}
+.icon_cursor_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e01a";
+	}
+}
+.icon_mic_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e01b";
+	}
+}
+.icon_compass_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e01c";
+	}
+}
+.icon_pin_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e01d";
+	}
+}
+.icon_pushpin_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e01e";
+	}
+}
+.icon_map_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e01f";
+	}
+}
+.icon_drawer_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e020";
+	}
+}
+.icon_toolbox_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e021";
+	}
+}
+.icon_book_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e022";
+	}
+}
+.icon_calendar {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e023";
+	}
+}
+.icon_film {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e024";
+	}
+}
+.icon_table {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e025";
+	}
+}
+.icon_contacts_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e026";
+	}
+}
+.icon_headphones {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e027";
+	}
+}
+.icon_lifesaver {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e028";
+	}
+}
+.icon_piechart {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e029";
+	}
+}
+.icon_refresh {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e02a";
+	}
+}
+.icon_link_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e02b";
+	}
+}
+.icon_link {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e02c";
+	}
+}
+.icon_loading {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e02d";
+	}
+}
+.icon_blocked {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e02e";
+	}
+}
+.icon_archive_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e02f";
+	}
+}
+.icon_heart_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e030";
+	}
+}
+.icon_star_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e031";
+	}
+}
+.icon_star-half_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e032";
+	}
+}
+.icon_star {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e033";
+	}
+}
+.icon_star-half {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e034";
+	}
+}
+.icon_tools {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e035";
+	}
+}
+.icon_tool {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e036";
+	}
+}
+.icon_cog {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e037";
+	}
+}
+.icon_cogs {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e038";
+	}
+}
+.arrow_up_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e039";
+	}
+}
+.arrow_down_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e03a";
+	}
+}
+.arrow_left_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e03b";
+	}
+}
+.arrow_right_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e03c";
+	}
+}
+.arrow_left-up_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e03d";
+	}
+}
+.arrow_right-up_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e03e";
+	}
+}
+.arrow_right-down_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e03f";
+	}
+}
+.arrow_left-down_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e040";
+	}
+}
+.arrow_condense_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e041";
+	}
+}
+.arrow_expand_alt3 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e042";
+	}
+}
+.arrow_carrot_up_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e043";
+	}
+}
+.arrow_carrot-down_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e044";
+	}
+}
+.arrow_carrot-left_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e045";
+	}
+}
+.arrow_carrot-right_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e046";
+	}
+}
+.arrow_carrot-2up_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e047";
+	}
+}
+.arrow_carrot-2dwnn_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e048";
+	}
+}
+.arrow_carrot-2left_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e049";
+	}
+}
+.arrow_carrot-2right_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e04a";
+	}
+}
+.arrow_triangle-up_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e04b";
+	}
+}
+.arrow_triangle-down_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e04c";
+	}
+}
+.arrow_triangle-left_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e04d";
+	}
+}
+.arrow_triangle-right_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e04e";
+	}
+}
+.icon_minus_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e04f";
+	}
+}
+.icon_plus_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e050";
+	}
+}
+.icon_close_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e051";
+	}
+}
+.icon_check_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e052";
+	}
+}
+.icon_zoom-out {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e053";
+	}
+}
+.icon_zoom-in {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e054";
+	}
+}
+.icon_stop_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e055";
+	}
+}
+.icon_menu-square_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e056";
+	}
+}
+.icon_menu-circle_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e057";
+	}
+}
+.icon_document {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e058";
+	}
+}
+.icon_documents {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e059";
+	}
+}
+.icon_pencil_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e05a";
+	}
+}
+.icon_folder {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e05b";
+	}
+}
+.icon_folder-open {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e05c";
+	}
+}
+.icon_folder-add {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e05d";
+	}
+}
+.icon_folder_upload {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e05e";
+	}
+}
+.icon_folder_download {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e05f";
+	}
+}
+.icon_info {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e060";
+	}
+}
+.icon_error-circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e061";
+	}
+}
+.icon_error-oct {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e062";
+	}
+}
+.icon_error-triangle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e063";
+	}
+}
+.icon_question_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e064";
+	}
+}
+.icon_comment {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e065";
+	}
+}
+.icon_chat {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e066";
+	}
+}
+.icon_vol-mute {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e067";
+	}
+}
+.icon_volume-low {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e068";
+	}
+}
+.icon_volume-high {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e069";
+	}
+}
+.icon_quotations_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e06a";
+	}
+}
+.icon_clock {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e06b";
+	}
+}
+.icon_lock {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e06c";
+	}
+}
+.icon_lock-open {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e06d";
+	}
+}
+.icon_key {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e06e";
+	}
+}
+.icon_cloud {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e06f";
+	}
+}
+.icon_cloud-upload {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e070";
+	}
+}
+.icon_cloud-download {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e071";
+	}
+}
+.icon_lightbulb {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e072";
+	}
+}
+.icon_gift {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e073";
+	}
+}
+.icon_house {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e074";
+	}
+}
+.icon_camera {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e075";
+	}
+}
+.icon_mail {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e076";
+	}
+}
+.icon_cone {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e077";
+	}
+}
+.icon_ribbon {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e078";
+	}
+}
+.icon_bag {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e079";
+	}
+}
+.icon_cart {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e07a";
+	}
+}
+.icon_tag {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e07b";
+	}
+}
+.icon_tags {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e07c";
+	}
+}
+.icon_trash {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e07d";
+	}
+}
+.icon_cursor {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e07e";
+	}
+}
+.icon_mic {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e07f";
+	}
+}
+.icon_compass {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e080";
+	}
+}
+.icon_pin {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e081";
+	}
+}
+.icon_pushpin {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e082";
+	}
+}
+.icon_map {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e083";
+	}
+}
+.icon_drawer {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e084";
+	}
+}
+.icon_toolbox {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e085";
+	}
+}
+.icon_book {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e086";
+	}
+}
+.icon_contacts {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e087";
+	}
+}
+.icon_archive {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e088";
+	}
+}
+.icon_heart {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e089";
+	}
+}
+.icon_profile {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e08a";
+	}
+}
+.icon_group {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e08b";
+	}
+}
+.icon_grid-2x2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e08c";
+	}
+}
+.icon_grid-3x3 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e08d";
+	}
+}
+.icon_music {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e08e";
+	}
+}
+.icon_pause_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e08f";
+	}
+}
+.icon_phone {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e090";
+	}
+}
+.icon_upload {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e091";
+	}
+}
+.icon_download {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e092";
+	}
+}
+.social_facebook {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e093";
+	}
+}
+.social_twitter {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e094";
+	}
+}
+.social_pinterest {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e095";
+	}
+}
+.social_googleplus {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e096";
+	}
+}
+.social_tumblr {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e097";
+	}
+}
+.social_tumbleupon {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e098";
+	}
+}
+.social_wordpress {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e099";
+	}
+}
+.social_instagram {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e09a";
+	}
+}
+.social_dribbble {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e09b";
+	}
+}
+.social_vimeo {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e09c";
+	}
+}
+.social_linkedin {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e09d";
+	}
+}
+.social_rss {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e09e";
+	}
+}
+.social_deviantart {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e09f";
+	}
+}
+.social_share {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a0";
+	}
+}
+.social_myspace {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a1";
+	}
+}
+.social_skype {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a2";
+	}
+}
+.social_youtube {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a3";
+	}
+}
+.social_picassa {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a4";
+	}
+}
+.social_googledrive {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a5";
+	}
+}
+.social_flickr {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a6";
+	}
+}
+.social_blogger {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a7";
+	}
+}
+.social_spotify {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a8";
+	}
+}
+.social_delicious {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0a9";
+	}
+}
+.social_facebook_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0aa";
+	}
+}
+.social_twitter_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ab";
+	}
+}
+.social_pinterest_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ac";
+	}
+}
+.social_googleplus_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ad";
+	}
+}
+.social_tumblr_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ae";
+	}
+}
+.social_stumbleupon_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0af";
+	}
+}
+.social_wordpress_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b0";
+	}
+}
+.social_instagram_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b1";
+	}
+}
+.social_dribbble_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b2";
+	}
+}
+.social_vimeo_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b3";
+	}
+}
+.social_linkedin_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b4";
+	}
+}
+.social_rss_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b5";
+	}
+}
+.social_deviantart_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b6";
+	}
+}
+.social_share_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b7";
+	}
+}
+.social_myspace_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b8";
+	}
+}
+.social_skype_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0b9";
+	}
+}
+.social_youtube_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ba";
+	}
+}
+.social_picassa_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0bb";
+	}
+}
+.social_googledrive_alt2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0bc";
+	}
+}
+.social_flickr_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0bd";
+	}
+}
+.social_blogger_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0be";
+	}
+}
+.social_spotify_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0bf";
+	}
+}
+.social_delicious_circle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c0";
+	}
+}
+.social_facebook_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c1";
+	}
+}
+.social_twitter_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c2";
+	}
+}
+.social_pinterest_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c3";
+	}
+}
+.social_googleplus_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c4";
+	}
+}
+.social_tumblr_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c5";
+	}
+}
+.social_stumbleupon_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c6";
+	}
+}
+.social_wordpress_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c7";
+	}
+}
+.social_instagram_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c8";
+	}
+}
+.social_dribbble_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0c9";
+	}
+}
+.social_vimeo_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ca";
+	}
+}
+.social_linkedin_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0cb";
+	}
+}
+.social_rss_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0cc";
+	}
+}
+.social_deviantart_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0cd";
+	}
+}
+.social_share_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ce";
+	}
+}
+.social_myspace_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0cf";
+	}
+}
+.social_skype_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d0";
+	}
+}
+.social_youtube_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d1";
+	}
+}
+.social_picassa_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d2";
+	}
+}
+.social_googledrive_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d3";
+	}
+}
+.social_flickr_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d4";
+	}
+}
+.social_blogger_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d5";
+	}
+}
+.social_spotify_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d6";
+	}
+}
+.social_delicious_square {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d7";
+	}
+}
+.icon_printer {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e103";
+	}
+}
+.icon_calulator {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ee";
+	}
+}
+.icon_building {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ef";
+	}
+}
+.icon_floppy {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e8";
+	}
+}
+.icon_drive {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ea";
+	}
+}
+.icon_search-2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e101";
+	}
+}
+.icon_id {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e107";
+	}
+}
+.icon_id-2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e108";
+	}
+}
+.icon_puzzle {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e102";
+	}
+}
+.icon_like {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e106";
+	}
+}
+.icon_dislike {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0eb";
+	}
+}
+.icon_mug {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e105";
+	}
+}
+.icon_currency {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ed";
+	}
+}
+.icon_wallet {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e100";
+	}
+}
+.icon_pens {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e104";
+	}
+}
+.icon_easel {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e9";
+	}
+}
+.icon_flowchart {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e109";
+	}
+}
+.icon_datareport {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ec";
+	}
+}
+.icon_briefcase {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0fe";
+	}
+}
+.icon_shield {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f6";
+	}
+}
+.icon_percent {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0fb";
+	}
+}
+.icon_globe {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e2";
+	}
+}
+.icon_globe-2 {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e3";
+	}
+}
+.icon_target {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f5";
+	}
+}
+.icon_hourglass {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e1";
+	}
+}
+.icon_balance {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0ff";
+	}
+}
+.icon_rook {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f8";
+	}
+}
+.icon_printer-alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0fa";
+	}
+}
+.icon_calculator_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e7";
+	}
+}
+.icon_building_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0fd";
+	}
+}
+.icon_floppy_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e4";
+	}
+}
+.icon_drive_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e5";
+	}
+}
+.icon_search_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f7";
+	}
+}
+.icon_id_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e0";
+	}
+}
+.icon_id-2_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0fc";
+	}
+}
+.icon_puzzle_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f9";
+	}
+}
+.icon_like_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0dd";
+	}
+}
+.icon_dislike_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f1";
+	}
+}
+.icon_mug_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0dc";
+	}
+}
+.icon_currency_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f3";
+	}
+}
+.icon_wallet_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d8";
+	}
+}
+.icon_pens_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0db";
+	}
+}
+.icon_easel_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f0";
+	}
+}
+.icon_flowchart_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0df";
+	}
+}
+.icon_datareport_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f2";
+	}
+}
+.icon_briefcase_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0f4";
+	}
+}
+.icon_shield_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0d9";
+	}
+}
+.icon_percent_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0da";
+	}
+}
+.icon_globe_alt {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0de";
+	}
+}
+.icon_clipboard {
+	font-family: $font-family_1;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: "\e0e6";
+	}
+}
+.glyph {
+	float: left;
+	text-align: center;
+	padding: .75em;
+	margin: .4em 1.5em .75em 0;
+	width: 6em;
+	text-shadow: none;
+	div {
+		padding-bottom: 10px;
+	}
+	input {
+		font-family: $font-family_2;
+		font-size: 12px;
+		width: 100%;
+		text-align: center;
+		border: 0;
+		box-shadow: 0 0 0 1px #ccc;
+		padding: .2em;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	.fs1 {
+		font-size: 2em;
+	}
+}
+.glyph_big {
+	font-size: 128px;
+	color: $color_1;
+	float: left;
+	margin-right: 20px;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}

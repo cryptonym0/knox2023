@@ -1,0 +1,514 @@
+doctype html
+html(lang='zxx')
+    head
+        meta(charset='UTF-8')
+        meta(name='description', content='Manup Template')
+        meta(name='keywords', content='Manup, unica, creative, html')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+        title Manup | Template
+        // Google Font
+        link(href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap', rel='stylesheet')
+
+        script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js', crossorigin='anonymous')
+        // Css Styles
+        link(rel='stylesheet', href='css/bootstrap.min.css', type='text/css')
+        link(rel='stylesheet', href='css/font-awesome.min.css', type='text/css')
+        link(rel='stylesheet', href='css/elegant-icons.css', type='text/css')
+        link(rel='stylesheet', href='css/owl.carousel.min.css', type='text/css')
+        link(rel='stylesheet', href='css/magnific-popup.css', type='text/css')
+        link(rel='stylesheet', href='css/slicknav.min.css', type='text/css')
+        link(rel='stylesheet', href='css/styles.css', type='text/css')
+    body
+        // Page Preloder
+        #preloder
+            .loader
+        // Header Section Begin
+        header.header-section.header-normal
+            .container
+                .logo
+                    a(href='./index.pug')
+                        img(src='assets/img/logo.png', alt='')
+                .nav-menu
+                    nav.mainmenu.mobile-menu
+                        ul
+                            li
+                                a(href='./index.pug') Home
+                            li.active
+                                a(href='./about-us.html') About
+                            li
+                                a(href='./speaker.pug') Sponsors
+                                ul.dropdown
+                                    li
+                                        a(href='#') Jayden
+                                    li
+                                        a(href='#') Sara
+                                    li
+                                        a(href='#') Emma
+                                    li
+                                        a(href='#') Harriet
+                            li
+                                a(href='./schedule.pug') Schedule
+                            li
+                                a(href='./blog.pug') Blog
+                            li
+                                a(href='./contact.pug') Contacts
+                    a.primary-btn.top-btn(href='#')
+                        i.fab.fa-ticket
+                        |  Ticket
+                #mobile-menu-wrap
+        // Header End
+        // Breadcrumb Section Begin
+        section.breadcrumb-section
+            .container
+                .row
+                    .col-lg-12
+                        .breadcrumb-text
+                            h2 About Us
+                            .bt-option
+                                a(href='#') Home
+                                span About
+        // Breadcrumb Section End
+        // About Section Begin
+        section.about-section.spad
+            .container
+                .row
+                    .col-lg-12
+                        .section-title
+                            h2 Todo!! This Section
+                            p.f-para
+                                | There are several ways people can make money online. From selling products to advertising. In this article I am going to explain the concept of contextual advertising.
+                            p
+                                | First I will explain what contextual advertising is. Contextual advertising means the advertising of products on a website according to the content the page is displaying. For example if the content of a website was information on a Ford truck then the advertisements would be for Ford trucks for sale, or Ford servicing etc. It picks up the words on the page and displays ads that are similar to those words. Then when someone either performs an action or clicks on your page you will get paid.
+                .row
+                    .col-lg-6
+                        .about-pic
+                            img(src='assets/img/about-us.jpg', alt='')
+                    .col-lg-6
+                        .about-text
+                            h3 Todo!! This Section
+                            p
+                                | When I first got into the online advertising business, I was looking for the magical combination that would put my website into the top search engine rankings, catapult me to the forefront of the minds or individuals looking to buy my product, and generally make me rich beyond my wildest dreams! After succeeding in the business for this long, I&rsquo;m able to look back on my old self with this kind of thinking and shake my head.
+                            ul
+                                li
+                                    span.icon_check
+                                    |  Write On Your Business Card
+                                li
+                                    span.icon_check
+                                    |  Advertising Outdoors
+                                li
+                                    span.icon_check
+                                    |  Effective Advertising Pointers
+                                li
+                                    span.icon_check
+                                    |  Kook 2 Directory Add Url Free
+        // About Section End
+        // Team Member Section Begin
+        section.team-member-section
+            .container
+                .row
+                    .col-lg-12
+                        .section-title
+                            h2 Meet Our Team
+                            p These are our communicators, you can see each person information
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-1.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 David Befus
+                    span Head Organizer? CEO?
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-2.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 Elycia Finch
+                    span Some Title that Makes Sense
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-3.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 William Chung
+                    span KLC President
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-4.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 Miles
+                    span He Look real different don&apos;t he
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-5.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 Gavin
+                    span You Get the idea
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-6.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 Jason Chan
+                    span Head of Marketing and Social Media
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-7.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 Someone
+                    span Some Title
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-8.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 Someone
+                    span Some Title
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-9.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 Someone
+                    span Some Title
+            .member-item.set-bg(data-setbg='assets/img/team-member/member-10.jpg')
+                .mi-social
+                    .mi-social-inner.bg-gradient
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                .mi-text
+                    h5 Someone
+                    span Some Title
+        // Team Member Section End
+        // Story Section Begin
+        section.story-section.spad
+            .container
+                .row
+                    .col-lg-12
+                        .section-title
+                            h2 Our Story
+                .row
+                    .col-lg-6
+                        .story-left
+                            .story-item
+                                h2 2008
+                                .si-text
+                                    h4 Adwords Keyword Research For Beginners
+                                    p
+                                        | However this is also the most expensive position. Give it a try if the second to fourth display position gives you more visitors and more customers for less money.
+                            .story-item
+                                h2 2011
+                                .si-text
+                                    h4 Adwords Keyword Research For Beginners
+                                    p
+                                        | Virgin Mobile took a more effective approach in marketing their cell phone service by focusing not on the people that would be making the actual purchase.
+                    .col-lg-6
+                        .story-right
+                            .story-item
+                                h2 2015
+                                .si-text
+                                    h4 15 Tips To Increase Your Adwords Profits
+                                    p
+                                        | There is no better advertisement campaign that is low cost and also successful at the same time. Great business ideas when utilized effectively can save lots of money.
+                            .story-item
+                                h2 2019
+                                .si-text
+                                    h4 Advertising Internet Online Opportunities To Explore
+                                    p
+                                        | Many people sign up for affiliate programs with the hopes of making some serious money. They advertise a few places and then wait for the money to start pouring in.
+        // Story Section End
+        // Pricing Section Begin
+        section.pricing-section.set-bg.spad(data-setbg='assets/img/pricing-bg.jpg')
+            .container
+                .row
+                    .col-lg-12
+                        .section-title
+                            h2 Registration Pricing
+                            p Get your event ticket plan
+                .row.justify-content-center
+                    .col-lg-4.col-md-8
+                        .price-item
+                            h4 1 Day Pass
+                            .pi-price
+                                h2
+                                    span $
+                                    | 129
+                            ul
+                                li Freeride Only
+                                li Downhill Skateboard, Luge, or both
+                                li Lunch and Networking
+                                li Keynote talk
+                                li Talk to the Editors Session
+                            a.price-btn(href='#')
+                                | Get Ticket
+                                span.arrow_right
+                    .col-lg-4.col-md-8
+                        .price-item.top-rated
+                            .tr-tag
+                                i.fab.fa-star
+                            h4 Race Registration
+                            .pi-price
+                                h2
+                                    span $
+                                    | 199
+                            ul
+                                li Freeride and Race
+                                li Downhill Skateboard or Luge
+                                li Timed Runs &amp; Qualifiers
+                                li Open, Womens, and Grom race classes
+                                li Cash Podium
+                                li Lunch and Networking
+                                li Keynote talk
+                            a.price-btn(href='#')
+                                | Get Ticket
+                                span.arrow_right
+                    .col-lg-4.col-md-8
+                        .price-item
+                            h4 Hay Crew Pass
+                            .pi-price
+                                h2
+                                    span $
+                                    | 79
+                            ul
+                                li Volunteer for event setup/teardown and we will subsidized your registration
+                                li Freeride and Race
+                                li Downhill Skateboard or Luge
+                                li Timed Runs &amp; Qualifiers
+                                li Open, Womens, and Grom race classes
+                            a.price-btn(href='#')
+                                | Get Ticket
+                                span.arrow_right
+        // Pricing Section End
+        // Testimonial Section Begin
+        section.testimonial-section.spad
+            .container
+                .row
+                    .col-lg-12
+                        .section-title
+                            h2 Testimonials
+                            p Our customers are our biggest supporters. What do they think of us?
+                .row
+                    .col-lg-12
+                        .row
+                            .testimonial-slider.owl-carousel
+                                .col-lg-6
+                                    .testimonial-item
+                                        .ti-author
+                                            .quote-pic
+                                                img(src='assets/img/quote.png', alt='')
+                                            .ta-pic
+                                                img(src='assets/img/testimonial/testimonial-1.jpg', alt='')
+                                            .ta-text
+                                                h5 Emma Sandoval
+                                                span Speaker Manager
+                                        p
+                                            | &ldquo;First impression is made by logo or its absence. To know the importance of a logo just answer one question: How many big, leading and famous companies don&rsquo;t have logos?&rdquo;
+                                .col-lg-6
+                                    .testimonial-item
+                                        .ti-author
+                                            .quote-pic
+                                                img(src='assets/img/quote.png', alt='')
+                                            .ta-pic
+                                                img(src='assets/img/testimonial/testimonial-2.jpg', alt='')
+                                            .ta-text
+                                                h5 John Smith
+                                                span Speaker Manager
+                                        p
+                                            | &ldquo;There is no denying the fact that the success of an advertisement lies mostly in the headline. The headline should attract the reader and make him read the rest of the advertisement.&rdquo;
+                                .col-lg-6
+                                    .testimonial-item
+                                        .ti-author
+                                            .quote-pic
+                                                img(src='assets/img/quote.png', alt='')
+                                            .ta-pic
+                                                img(src='assets/img/testimonial/testimonial-2.jpg', alt='')
+                                            .ta-text
+                                                h5 John Smith
+                                                span Speaker Manager
+                                        p
+                                            | &ldquo;There is no denying the fact that the success of an advertisement lies mostly in the headline. The headline should attract the reader and make him read the rest of the advertisement.&rdquo;
+        // Testimonial Section End
+        // Newslatter Section Begin
+        section.newslatter-section.about-newslatter
+            .container
+                .newslatter-inner.set-bg(data-setbg='assets/img/newslatter-bg.jpg')
+                    .ni-text
+                        h3 Subscribe Newsletter
+                        p Subscribe to our newsletter and don&rsquo;t miss anything
+                    form.ni-form(action='#')
+                        input(type='text', placeholder='Your email')
+                        button(type='submit') Subscribe
+        // Newslatter Section End
+        // Contact Section Begin
+        section.contact-section.spad
+            .container
+                .row
+                    .col-lg-6
+                        .section-title
+                            h2 Location
+                            p Get directions to our event center
+                        .cs-text
+                            .ct-address
+                                span Address:
+                                p
+                                    | Knox Mountain Dr, Kelowna, BC
+                                    br
+                                    | Canada
+                            ul
+                                li
+                                    span Phone:
+                                    | (+12)-345-67-8910
+                                li
+                                    span Email:
+                                    |    info@knoxmountaindh.ca
+.ct-links
+    span Website:
+    p https://conference.colorlib.com
+.col-lg-6
+    .cs-map
+        iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2569.5518820519956!2d-119.486625648484!3d49.907215834137055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537df36c32cea5d3%3A0x69e58d938eaef85!2sKnox%20Mountain%20Dr%2C%20Kelowna%2C%20BC!5e0!3m2!1sen!2sca!4v1673984823238!5m2!1sen!2sca', height='400', style='border:0;', allowfullscreen='')
+            Knox Mountain Dr, Kelowna, BC
+// Contact Section End
+// Footer Section Begin
+footer.footer-section
+    .container
+        .partner-logo.owl-carousel
+            a.pl-table(href='#')
+                .pl-tablecell
+                    img(src='assets/img/partner-logo/logo-1.png', alt='')
+            a.pl-table(href='#')
+                .pl-tablecell
+                    img(src='assets/img/partner-logo/logo-2.png', alt='')
+            a.pl-table(href='#')
+                .pl-tablecell
+                    img(src='assets/img/partner-logo/logo-3.png', alt='')
+            a.pl-table(href='#')
+                .pl-tablecell
+                    img(src='assets/img/partner-logo/logo-4.png', alt='')
+            a.pl-table(href='#')
+                .pl-tablecell
+                    img(src='assets/img/partner-logo/logo-5.png', alt='')
+            a.pl-table(href='#')
+                .pl-tablecell
+                    img(src='assets/img/partner-logo/logo-6.png', alt='')
+        .row
+            .col-lg-12
+                .footer-text
+                    .ft-logo
+                        a.footer-logo(href='#')
+                            img(src='assets/img/footer-logo.png', alt='')
+                    ul
+                        li
+                            a(href='#') Home
+                        li
+                            a(href='#') Sponsors
+                        li
+                            a(href='#') Schedule
+                        li
+                            a(href='#') Blog
+                        li
+                            a(href='#') Contact
+                    .copyright-text
+                        p
+                            // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                            | Copyright &copy;
+                            script.
+                                document.write(new Date().getFullYear());
+                            |  All rights reserved | This template is made with
+                            i.fab.fa-heart(aria-hidden='true')
+                            |  by
+                            a(href='https://colorlib.com', target='_blank') Colorlib
+                            // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                    .ft-social
+                        a(href='#')
+                            i.fab.fa-facebook
+                        a(href='#')
+                            i.fab.fa-twitter
+                        a(href='#')
+                            i.fab.fa-linkedin
+                        a(href='#')
+                            i.fab.fa-instagram
+                        a(href='#')
+                            i.fab.fa-youtube-play
+// Footer Section End
+// Js Plugins
+script(src='js/jquery-3.3.1.min.js')
+script(src='js/bootstrap.min.js')
+script(src='js/jquery.magnific-popup.min.js')
+script(src='js/jquery.countdown.min.js')
+script(src='js/jquery.slicknav.js')
+script(src='js/owl.carousel.min.js')
+script(src='js/main.js')
