@@ -44,7 +44,7 @@ element {
 	--yellow: #f2b208;
 	--blue: #40bbc9;
 	--green: #033a1e;
-	--black: #111111;
+	--black: #010101;
 	--white: #fff;
 	--color1: #f2b208;
 	--color2: #ff3e07;
@@ -63,9 +63,10 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: var(--color6);
+	color: #010101;
 	font-weight: 400;
 	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
 }
 
 h1 {
@@ -196,11 +197,12 @@ ol {
 .primary-btn {
 	display: inline-block;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 700;
 	padding: 12px 40px;
 	color: #ffffff;
 	text-align: center;
 	border-radius: 50px;
+	text-transform: uppercase;
 	background-image: -webkit-gradient(linear, left top, right top, from(#033a1e), to(#40bbc9)), -webkit-gradient(linear, left top, right top, from(#033a1e), to(#40bbc9));
 	background-image: -o-linear-gradient(left, #033a1e 0%, #40bbc9 100%), -o-linear-gradient(left, #033a1e 0%, #40bbc9 100%);
 	background-image: linear-gradient(to right, #033a1e 0%, #40bbc9 100%), linear-gradient(to right, #033a1e 0%, #40bbc9 100%);
@@ -374,7 +376,7 @@ ol {
 	font-size: 16px;
 	color: #171822;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 700;
 	padding: 42px 0;
 	position: relative;
 	display: inline-block;
@@ -425,7 +427,7 @@ ol {
 	font-size: 60px;
 	color: #ffffff;
 	line-height: 72px;
-	font-weight: 600;
+	font-weight: 700;
 	margin-top: 24px;
 	margin-bottom: 35px;
 }
@@ -653,9 +655,10 @@ ol {
 
 .schedule-tab .nav-tabs .nav-item {
 	border-right: 1px solid #e7e7e8;
-	width: 20%;
+	width: 50%;
 	text-align: center;
 }
+
 
 .schedule-tab .nav-tabs .nav-item:last-child {
 	border-right: none;
@@ -1230,6 +1233,20 @@ ol {
 	border-radius: 50%;
 	margin-right: 15px;
 }
+
+.ct-links a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #a3a3ae;
+	border: 1px solid #45464e;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
 
 .footer-text .ft-social a:last-child {
 	margin-right: 0;
