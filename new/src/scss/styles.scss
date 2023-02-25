@@ -6,6 +6,8 @@
 @import "slicknav.min.scss";
 
 
+
+
 $color_1: #111111;
 $color_2: #6a6b7c;
 $color_3: #fff;
@@ -21,6 +23,19 @@ $font-family_2: "Poppins", sans-serif;
 $font-family_3: "FontAwesome";
 $border-color_1: #e7e7e8;
 
+
+$red: #ff3e07;
+$yellow: #f2b208;
+$blue: #40bbc9;
+$green: #033a1e;
+$black: #111111;
+$white: #fff;
+$color1: #ff3e07;
+$color2: #f2b208;
+$color3: #033a1e;
+$color4: #40bbc9;
+$maindark: #111111;
+$mainlight: #fff;
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -30,7 +45,7 @@ $border-color_1: #e7e7e8;
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid $color1;
 		border-left-color: transparent;
 	}
 	50% {
@@ -42,14 +57,14 @@ $border-color_1: #e7e7e8;
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid $color1;
 		border-left-color: transparent;
 	}
 }
 @-webkit-keyframes loader {
 	0% {
 		-webkit-transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid $color1;
 		border-left-color: transparent;
 	}
 	50% {
@@ -59,88 +74,11 @@ $border-color_1: #e7e7e8;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid $color1;
 		border-left-color: transparent;
 	}
 }
-/*---------------------
-  Header
------------------------*/
-/*---------------------
-  Hero
------------------------*/
-/*---------------------
-  Conter
------------------------*/
-/*---------------------
-  Home About Section
------------------------*/
-/*---------------------
-  Member Item
------------------------*/
-/*---------------------
-  Schedule Section
------------------------*/
-/*---------------------
-  Pricing Section
------------------------*/
-/*---------------------
-  Latest Blog
------------------------*/
-/*---------------------
-  Newslatter Section
------------------------*/
-/*---------------------
-  Home Contact
------------------------*/
-/*---------------------
-  Footer
------------------------*/
-/* ----------------------------------- Other Pages Styles ------------------------------- */
-/*---------------------
-  Breadcrumb
------------------------*/
-/*---------------------
-  About Section
------------------------*/
-/*---------------------
-  Story Section
------------------------*/
-/*---------------------
-  Testimonial Section
------------------------*/
-/*---------------------
-  Speaker Section
------------------------*/
-/*------------------------
-  Schedule Table Section
--------------------------*/
-/*---------------------
-  Blog
------------------------*/
-/*---------------------
-  Blog Hero Section
------------------------*/
-/*---------------------
-  Blog Details Section
------------------------*/
-/*---------------------
-  Comment Section
------------------------*/
-/*---------------------
-  Related Post Section
------------------------*/
-/*---------------------
-  Contact Top Content
------------------------*/
-/*---------------------
-  Contact Form
------------------------*/
-/*-------------------------------- Respinsive Media Styles --------------------------------*/
-/* Medium Device: 1200px */
-/* Tablet Device: 768px */
-/* Large Mobile: 480px */
-/* Small Mobile: 320px */
+
 html {
 	height: 100%;
 	font-family: $font-family_1;
@@ -153,20 +91,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
-element {
-	--red: #ff3e07;
-	--yellow: #f2b208;
-	--blue: #40bbc9;
-	--green: #033a1e;
-	--black: #111111;
-	--white: #fff;
-	--color1: #ff3e07;
-	--color2: #f2b208;
-	--color3: #033a1e;
-	--color4: #40bbc9;
-	--maindark: #111111;
-	--mainlight: #fff;
-}
+
+
+
 h1 {
 	margin: 0;
 	color: $color_1;
@@ -321,16 +248,16 @@ a {
 }
 }
 .bg-gradient {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 }
 .bd-text {
 .bd-tag-share {
 .s-share {
 a {
 &:hover {
-	 background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	 background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	 background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	 background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	 color: $color_5;
  }
 display: inline-block;
@@ -433,8 +360,8 @@ img {
 }
 .bh-text {
 .play-btn {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	height: 70px;
 	width: 70px;
 	border-radius: 50%;
@@ -494,8 +421,8 @@ strong {
 .nav-tabs {
 .nav-item {
 .nav-link.active {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	border-color: $border-color_1;
 	color: $color_5;
 }
@@ -582,8 +509,8 @@ h5 {
 }
 td.hover-bg {
 &:hover {
-	 background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-	 background: linear-gradient(120deg, #ee8425, #f9488b);
+	 background: -o-linear-gradient(330deg, $color3, $color4);
+	 background: linear-gradient(120deg, $color3, $color4);
 h5 {
 	color: $color_5;
 }
@@ -603,8 +530,8 @@ span {
 .newslatter-inner {
 .ni-form {
 button {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	width: 128px;
 	height: 40px;
 	text-align: center;
@@ -667,8 +594,8 @@ p {
 }
 .latest-item {
 .li-tag {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	font-size: 14px;
 	color: $color_5;
 	display: inline-block;
@@ -712,8 +639,8 @@ i {
 .price-item {
 .price-btn {
 &:hover {
-	 background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	 background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	 background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	 background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	 color: $color_5;
 span {
 	color: $color_5;
@@ -743,8 +670,8 @@ span {
 }
 }
 .pi-price {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	padding-top: 16px;
 	padding-bottom: 14px;
 	margin-bottom: 38px;
@@ -765,8 +692,8 @@ span {
 }
 }
 .tr-tag {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	width: 28px;
 	height: 50px;
 	line-height: 38px;
@@ -805,8 +732,8 @@ li {
 .nav-tabs {
 .nav-item {
 .nav-link.active {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	border-radius: 2px;
 	border-color: $border-color_1;
 h5 {
@@ -916,8 +843,8 @@ i {
 }
 }
 .site-btn {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, $color3 0%, $color4 100%), -o-linear-gradient(330deg, $color3 0%, $color4 100%);
+	background-image: linear-gradient(120deg, $color3 0%, $color4 100%), linear-gradient(120deg, $color3 0%, $color4 100%);
 	font-size: 16px;
 	color: $color_5;
 	font-weight: 600;
@@ -933,9 +860,9 @@ i {
 	color: $color_5;
 	text-align: center;
 	border-radius: 50px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from($color3), to($color4)), -webkit-gradient(linear, left top, right top, from($color3), to($color4));
+	background-image: -o-linear-gradient(left, $color3 0%, $color4 100%), -o-linear-gradient(left, $color3 0%, $color4 100%);
+	background-image: linear-gradient(to right, $color3 0%, $color4 100%), linear-gradient(to right, $color3 0%, $color4 100%);
 }
 #preloder {
 	position: fixed;
@@ -1598,9 +1525,9 @@ button {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 &:hover {
-	 background: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-	 background: -o-linear-gradient(left, #ee8425, #f9488b);
-	 background: linear-gradient(to right, #ee8425, #f9488b);
+	 background: -webkit-gradient(linear, left top, right top, from($color3), to($color4));
+	 background: -o-linear-gradient(left, $color3, $color4);
+	 background: linear-gradient(to right, $color3, $color4);
 	 color: $color_5;
  }
 }
@@ -1695,8 +1622,8 @@ a {
 	border-radius: 50%;
 	margin-right: 5px;
 &:hover {
-	 background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-	 background: linear-gradient(120deg, #ee8425, #f9488b);
+	 background: -o-linear-gradient(330deg, $color3, $color4);
+	 background: linear-gradient(120deg, $color3, $color4);
 	 color: $color_5;
  }
 }

@@ -35,7 +35,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Work Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -63,7 +63,7 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Work Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -92,7 +92,7 @@ h6 {
 
 p {
 	font-size: 16px;
-	font-family: "Work Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: #6a6b7c;
 	font-weight: 400;
 	line-height: 28px;
@@ -185,8 +185,8 @@ ol {
 .price-item .tr-tag,
 .schedule-tab .nav-tabs .nav-item .nav-link.active,
 .site-btn {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, #033a1e 0%, #40bbc9 100%), -o-linear-gradient(330deg, #033a1e 0%, #40bbc9 100%);
+	background-image: linear-gradient(120deg, #033a1e 0%, #40bbc9 100%), linear-gradient(120deg, #033a1e 0%, #40bbc9 100%);
 }
 
 /* buttons */
@@ -199,9 +199,9 @@ ol {
 	color: #ffffff;
 	text-align: center;
 	border-radius: 50px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#033a1e), to(#40bbc9)), -webkit-gradient(linear, left top, right top, from(#033a1e), to(#40bbc9));
+	background-image: -o-linear-gradient(left, #033a1e 0%, #40bbc9 100%), -o-linear-gradient(left, #033a1e 0%, #40bbc9 100%);
+	background-image: linear-gradient(to right, #033a1e 0%, #40bbc9 100%), linear-gradient(to right, #033a1e 0%, #40bbc9 100%);
 }
 
 .site-btn {
@@ -293,8 +293,8 @@ ol {
 
 .logo {
 	float: left;
-	padding-top: 36px;
-	padding-bottom: 37px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .logo a {
@@ -835,7 +835,7 @@ ol {
 .price-item .pi-price h2 {
 	font-size: 60px;
 	color: #ffffff;
-	font-family: "Poppins", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 600;
 	display: inline-block;
 	position: relative;
@@ -1424,9 +1424,9 @@ ol {
 }
 
 .testimonial-slider.owl-carousel .owl-nav button:hover {
-	background: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-	background: -o-linear-gradient(left, #ee8425, #f9488b);
-	background: linear-gradient(to right, #ee8425, #f9488b);
+	background: -webkit-gradient(linear, left top, right top, from(#033a1e), to(#40bbc9));
+	background: -o-linear-gradient(left, #033a1e, #40bbc9);
+	background: linear-gradient(to right, #033a1e, #40bbc9);
 	color: #ffffff;
 }
 
@@ -1541,8 +1541,8 @@ ol {
 }
 
 .speaker-item .si-text .si-social a:hover {
-	background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-	background: linear-gradient(120deg, #ee8425, #f9488b);
+	background: -o-linear-gradient(330deg, #033a1e, #40bbc9);
+	background: linear-gradient(120deg, #033a1e, #40bbc9);
 	color: #ffffff;
 }
 
@@ -1669,8 +1669,8 @@ ol {
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td.hover-bg:hover {
-	background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-	background: linear-gradient(120deg, #ee8425, #f9488b);
+	background: -o-linear-gradient(330deg, #033a1e, #40bbc9);
+	background: linear-gradient(120deg, #033a1e, #40bbc9);
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td.hover-bg:hover h5 {
