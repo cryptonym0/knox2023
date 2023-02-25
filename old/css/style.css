@@ -46,12 +46,14 @@ element {
 	--green: #033a1e;
 	--black: #111111;
 	--white: #fff;
-	--color1: #ff3e07;
-	--color2: #f2b208;
-	--color3: #033a1e;
-	--color4: #40bbc9;
-	--maindark: #111111;
-	--mainlight: #fff;
+	--color1: #f2b208;
+	--color2: #ff3e07;
+	--color3: #21a4c4;
+	--color4: #06314c;
+	--color5: #033a1e;
+	--color6: #010101;
+	--color7: #ffffff;
+	--color8: #f4efea;
 }
 
 h1,
@@ -61,7 +63,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #111111;
+	color: var(--color6);
 	font-weight: 400;
 	font-family: "Roboto", sans-serif;
 }
