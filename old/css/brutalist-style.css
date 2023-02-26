@@ -207,9 +207,9 @@ ol {
 	text-align: center;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background-image: -webkit-gradient(linear, left top, right top, from(#ff3e07), to(#40bbc9)), -webkit-gradient(linear, left top, right top, from(#ff3e07), to(#40bbc9));
-	background-image: -o-linear-gradient(left, #ff3e07 0%, #40bbc9 100%), -o-linear-gradient(left, #ff3e07 0%, #40bbc9 100%);
-	background-image: linear-gradient(to right, #ff3e07 0%, #40bbc9 100%), linear-gradient(to right, #ff3e07 0%, #40bbc9 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#06314c), to(#40bbc9)), -webkit-gradient(linear, left top, right top, from(#06314c), to(#40bbc9));
+	background-image: -o-linear-gradient(left, #06314c 0%, #40bbc9 100%), -o-linear-gradient(left, #06314c 0%, #40bbc9 100%);
+	background-image: linear-gradient(to right, #06314c 0%, #40bbc9 100%), linear-gradient(to right, #06314c 0%, #40bbc9 100%);
 	border: 3px solid #010101;
 	border-radius: 10px;
 	box-shadow: 3px 3px 2px 1px  #010101;
