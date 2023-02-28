@@ -1,0 +1,64 @@
+doctype html
+html(lang='en')
+
+    //head
+    head
+        meta(charset='UTF-8')
+        meta(name='description' content='Knox Mountain Downhill')
+        meta(name='keywords' content='knox, mountain, downhill, skateboard, race, longboarding, klc, kla')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible' content='ie=edge')
+        title Knox Mountain Downhill
+        // Favicon
+        link(rel='icon' type='image/x-icon' href='img/favicon.ico')
+        // Google Font
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel='stylesheet')
+        // Css Styles
+        link(rel='stylesheet' href='css/bootstrap.min.css' type='text/css')
+        link(rel='stylesheet' href='css/font-awesome.min.css' type='text/css')
+        link(rel='stylesheet' href='css/elegant-icons.css' type='text/css')
+        link(rel='stylesheet' href='css/owl.carousel.min.css' type='text/css')
+        link(rel='stylesheet' href='css/magnific-popup.css' type='text/css')
+        link(rel='stylesheet' href='css/slicknav.min.css' type='text/css')
+        link(rel='stylesheet' href='css/style.css' type='text/css')
+        // <link rel="stylesheet" href="css/brutalist-style.css" type="text/css">
+    // Page Preloder
+    #preloder
+        .loader
+
+    //header
+    include templates/header_template
+
+    //hero
+    include templates/hero_template
+    //counter
+    include templates/counter_template
+    //about
+    include templates/about_template
+    //schedule
+    include templates/schedule_template
+    //pricing
+    include templates/pricing_template
+    //team member
+    include templates/team_member_template
+    //latestblog
+    include templates/latestblog_template
+    //newsletter
+    include templates/newsletter_template
+    //contact
+    include templates/contact_general_template
+    //footer
+    include templates/footer_template
+
+    //Js
+// Js Plugins
+script(src='js/jquery-3.3.1.min.js')
+script(src='js/bootstrap.min.js')
+script(src='js/jquery.magnific-popup.min.js')
+script(src='js/jquery.countdown.min.js')
+script(src='js/jquery.slicknav.js')
+script(src='js/owl.carousel.min.js')
+script(src='js/main.js')
+    //include templates/index_test

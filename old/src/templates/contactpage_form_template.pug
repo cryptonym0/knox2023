@@ -1,0 +1,25 @@
+//  Contact Form Section Begin 
+html
+  head
+  body
+    section.contact-from-section.spad
+      .container
+        .row
+          .col-lg-12
+            .section-title
+              h2 GET IN TOUCH
+              p {Some sort of call to action to get ppl to fill the form}
+        .row
+          .col-lg-12
+            form.comment-form.contact-form(action='#')
+              .row
+                .col-lg-4
+                  input(type='text' placeholder='Name')
+                .col-lg-4
+                  input(type='text' placeholder='Email')
+                .col-lg-4
+                  input(type='text' placeholder='Phone')
+                .col-lg-12.text-center
+                  textarea(placeholder='Messages')
+                  button.site-btn(type='submit') Send
+    //  Contact Form Section End 
