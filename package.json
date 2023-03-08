@@ -1,0 +1,17 @@
+{
+  "title": "Knox Mtn Downhill",
+  "description": "",
+  "author": "Finch",
+  "scripts": {
+    "build:pug": "node scripts/build-pug.js"
+  },
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "shelljs": "^0.8.5",
+    "upath": "^2.0.1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "prettier": "^2.8.4"
+  }
+}
