@@ -1,0 +1,52 @@
+doctype html
+html(lang='en')
+
+    include templates/head
+    include templates/preloader
+    //include templates/header_template
+    //include templates/breadcrumb_template
+    html
+        head
+        body
+            header.header-section
+                .container
+                    .logo
+                        a(href='./index.html')
+                            img(src='img/partner-logo/wordmark_horizontal_black_sm.png' alt='KNOX MOUNTAIN DOWNHILL')
+                    .nav-menu
+                        nav.mainmenu.mobile-menu
+                            ul
+                                li
+                                    a(href='./index.html') Home
+                                li.active
+                                    a(href='./about-us.html') About
+                                li
+                                    a(href='sponsors.html') Sponsor KMDH
+                                li
+                                    a(href='./contact.html') Contact
+                    #mobile-menu-wrap
+            //  Header End
+
+    include templates/about_template
+    //team member
+    include templates/team_member_template
+
+    //pricing
+    include templates/pricing_template
+
+    //newsletter
+    include templates/newsletter_template
+    //contact
+    include templates/contact_general_template
+    //footer
+    include templates/footer_template
+
+    //Js
+// Js Plugins
+script(src='js/jquery-3.3.1.min.js')
+script(src='js/bootstrap.min.js')
+script(src='js/jquery.magnific-popup.min.js')
+script(src='js/jquery.countdown.min.js')
+script(src='js/jquery.slicknav.js')
+script(src='js/owl.carousel.min.js')
+script(src='js/main.js')
