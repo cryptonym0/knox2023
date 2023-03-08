@@ -666,7 +666,6 @@ ol {
     text-align: center;
 }
 
-
 .schedule-tab .nav-tabs .nav-item:last-child {
     border-right: none;
 }
@@ -1637,12 +1636,6 @@ ol {
 .schedule-table-tab .schedule-table-content table thead {
     border-bottom: 1px solid #e5e5e5;
 }
-
-/*--bronze: #c67b37;*/
-/*--silver: #737373;*/
-/*--gold: #f1b20b;*/
-/*--plat: #f04422;*/
-/*--title: #40bbc9;*/
 
 .schedule-table-tab .schedule-table-content table thead tr th {
     border-right: 1px solid #e5e5e5;
