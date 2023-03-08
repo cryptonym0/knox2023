@@ -3,8 +3,33 @@ html(lang='en')
 
     include templates/head
     include templates/preloader
-    include templates/header_template
+    //include templates/header_template
+    //  Header Section Begin
     html
+        head
+        body
+            header.header-section
+                .container
+                    .logo
+                        a(href='./index.html')
+                            img(src='img/partner-logo/wordmark_horizontal_black_sm.png' alt='KNOX MOUNTAIN DOWNHILL')
+                    .nav-menu
+                        nav.mainmenu.mobile-menu
+                            ul
+                                li
+                                    a(href='./index.html') Home
+                                li
+                                    a(href='./about-us.html') About
+                                li.active
+                                    a(href='sponsors.html') Sponsor KMDH
+                                li
+                                    a(href='./contact.html') Contact
+                    #mobile-menu-wrap
+            //  Header End
+
+
+    html
+
         head
         body
             section.breadcrumb-section
@@ -12,17 +37,14 @@ html(lang='en')
                     .row
                         .col-lg-12
                             .breadcrumb-text
-                                h2 Feature Sponsors
+                                h2 Our Package
                                 .bt-option
                                     a(href='#') Home
                                     span Our Sponsors
 
     include templates/sponsor_section_template
-
-    //newsletter
-    include templates/newsletter_template
     //contact
-    include templates/contact_general_template
+    include templates/contactpage_form_template
     //footer
     include templates/footer_template
 
