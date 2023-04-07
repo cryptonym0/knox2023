@@ -3,30 +3,7 @@ html(lang='en')
 
     include templates/head
     include templates/preloader
-    //include templates/header_template
-    //  Header Section Begin
-    html
-        head
-        body
-            header.header-section
-                .container
-                    .logo
-                        a(href='./index.html')
-                            img(src='img/partner-logo/wordmark_horizontal_black_sm.png' alt='KNOX MOUNTAIN DOWNHILL')
-                    .nav-menu
-                        nav.mainmenu.mobile-menu
-                            ul
-                                li
-                                    a(href='./index.html') Home
-                                li
-                                    a(href='./about-us.html') About
-                                li
-                                    a(href='sponsors.html') Sponsor KMDH
-                                li.active
-                                    a(href='./contact.html') Contact
-                    #mobile-menu-wrap
-            //  Header End
-
+    include templates/header_template
     include templates/contactpage_map_template
     include templates/contactpage_form_template
     include templates/footer_template
