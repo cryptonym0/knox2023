@@ -3,8 +3,7 @@ html(lang='en')
 
     include templates/head
     include templates/preloader
-    //include templates/header_template
-    //include templates/breadcrumb_template
+
 //  Header Section Begin
 html
     head
@@ -19,11 +18,11 @@ html
                         ul
                             li
                                 a(href='./index.html') Home
-                            li.active
+                            li
                                 a(href='./about-us.html') About
                             li
                                 a(href='./sponsors.html') Sponsor KMDH
-                            li
+                            li.active
                                 a(href='./map.html') Map
                             li
                                 a(href='https://drive.google.com/file/d/17T8W2Kwvv46ZHffC4JJaV9yM_WlarIT_/view?usp=drive_link') Rules
@@ -35,20 +34,7 @@ html
                 #mobile-menu-wrap
         //  Header End
 
-    include templates/about_template
-    include templates/sponsor_confirmed
-    //team member
-    include templates/team_member_template
-
-    //pricing
-    include templates/pricing_template
-
-    ////newsletter
-    //include templates/newsletter_template
-    ////contact
-    //include templates/contact_general_template
-    include templates/contactpage_map_template
-    include templates/contactpage_form_template
+    include templates/map
     //footer
     include templates/footer_template
 
