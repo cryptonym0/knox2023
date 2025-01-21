@@ -24,6 +24,12 @@
         <!-- <link rel="stylesheet" href="css/brutalist-style.css" type="text/css">-->
     </head>
     <div id="preloder"><div class="loader"></div></div>
+    <!-- - var qualifier_str = "Knox Mountain Downhill is sanctioned by Canada Skateboard as a qualifier for Team Canada for both Mens and Women's Downhill Skateboarding and Street Luge disciplines."-->
+    <!--ul-->
+    <!--    each item in enticing_list-->
+    <!--        li= item-->
+    <!---->
+    <!--p Hello, #{ dates }-->
     <!--include templates/header_template-->
     <!--include templates/breadcrumb_template-->
 </html>
@@ -41,19 +47,24 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li class="active"><a href="./about-us.html">About</a></li>
-                            <li><a href="sponsors.html">Sponsor KMDH</a></li>
+                            <li><a href="sponsors.html">Sponsors</a></li>
                             <li><a href="map.html">Map</a></li>
                             <li><a href="https://drive.google.com/file/d/17T8W2Kwvv46ZHffC4JJaV9yM_WlarIT_/view?usp=drive_link">Rules</a></li>
+                            <li><a href="https://drive.google.com/file/d/1zSKVYvHfAlJb_U_x_H42_jG3SNmHAbCg/view?usp=drive_link">NADL</a></li>
                             <!--li-->
-                            <!--    a(href='https://forms.gle/QwbQUGCNUDrtLowv8') Volunteer-->
+                            <!--  a(href=#{volunteer_registration_link}) Volunteer-->
+                            <!--a.primary-btn.top-btn(href=#{racer_registration_link})-->
+                            <!--  i.fa.fa-ticket-->
+                            <!--  |  RACER REGISTRATION-->
+                            <!--a.primary-btn.top-btn(href='./results.html')-->
+                            <!--  i.fa.fa-ticket-->
+                            <!--  |  RESULTS-->
+                            <a class="primary-btn top-btn" href="https://forms.gle/QwbQUGCNUDrtLowv8">
+                                <i class="fa fa-ticket"></i>
+                                Volunteer
+                            </a>
                         </ul>
                     </nav>
-                    <!--a.primary-btn.top-btn(href='https://forms.gle/LB6HzmwkSR5xfJgC9')-->
-                    <!--    i.fa.fa-ticket-->
-                    <!--    |  RACER REGISTRATION-->
-                    <!--a.primary-btn.top-btn(href='./results.html')-->
-                    <!--    i.fa.fa-ticket-->
-                    <!--    |  RESULTS-->
                 </div>
                 <div id="mobile-menu-wrap"></div>
             </div>
@@ -594,13 +605,7 @@
                 <div class="member-item set-bg" data-setbg="img/team-member/member-1.jpg">
                     <div class="mi-social">
                         <div class="mi-social-inner bg-gradient">
-                            <!--a(href='#')-->
-                            <!--  i.fa.fa-facebook-->
                             <a href="https://www.instagram.com/befuschristsuperstar/"><i class="fa fa-instagram"></i></a>
-                            <!--a(href='https://www.instagram.com/befuschristsuperstar/')-->
-                            <!--  i.fa.fa-twitter-->
-                            <!--a(href='#')-->
-                            <!--  i.fa.fa-linkedin-->
                         </div>
                     </div>
                     <div class="mi-text">
@@ -611,36 +616,24 @@
                 <div class="member-item set-bg" data-setbg="img/team-member/member-2.jpg">
                     <div class="mi-social">
                         <div class="mi-social-inner bg-gradient">
-                            <!--a(href='#')-->
-                            <!--  i.fa.fa-facebook-->
                             <a href="https://www.instagram.com/thatgirlfinch/"><i class="fa fa-instagram"></i></a>
-                            <!--a(href='#')-->
-                            <!--  i.fa.fa-twitter-->
-                            <!--a(href='#')-->
-                            <!--  i.fa.fa-linkedin-->
                         </div>
                     </div>
                     <div class="mi-text">
                         <h5>Elycia Finch</h5>
-                        <span>Event Coodinator</span>
-                        <span>External</span>
+                        <span>Event Coordinator</span>
+                        <span>External, Rider Relations</span>
                     </div>
                 </div>
                 <div class="member-item set-bg" data-setbg="img/team-member/member-3.jpg">
                     <div class="mi-social">
                         <div class="mi-social-inner bg-gradient">
-                            <!--a(href='#')-->
-                            <!--  i.fa.fa-facebook-->
                             <a href="https://www.instagram.com/chungs825/"><i class="fa fa-instagram"></i></a>
-                            <!--a(href='https://www.instagram.com/thatgirlfinch/')-->
-                            <!--  i.fa.fa-twitter-->
-                            <!--a(href='#')-->
-                            <!--  i.fa.fa-linkedin-->
                         </div>
                     </div>
                     <div class="mi-text">
                         <h5>William Chung</h5>
-                        <span>Event Coodinator</span>
+                        <span>Event Coordinator</span>
                         <span>Internal</span>
                     </div>
                 </div>
@@ -659,35 +652,25 @@
                         <span>Marketing & PR</span>
                     </div>
                 </div>
-                <div class="member-item set-bg" data-setbg="img/team-member/member-5.jpg">
+                <!--.member-item.set-bg(data-setbg='img/team-member/member-5.jpg')-->
+                <!--  .mi-social-->
+                <!--    .mi-social-inner.bg-gradient-->
+                <!--      a(href='https://www.instagram.com/gavinnr/')-->
+                <!--        i.fa.fa-instagram-->
+                <!--  .mi-text-->
+                <!--    h5 Gavin Rutherford-->
+                <!--    span Accommodations Specialist-->
+                <div class="member-item set-bg" data-setbg="img/team-member/member-6.jpg">
                     <div class="mi-social">
                         <div class="mi-social-inner bg-gradient">
-                            <!--a(href='https://www.nothingbutjason.com/')-->
-                            <!--  i.fa.fa-globe-->
-                            <!--a(href='https://www.tiktok.com/@nothing.but.jason')-->
-                            <!--  i.fa-brands.fa-tiktok-->
-                            <a href="https://www.instagram.com/gavinnr/"><i class="fa fa-instagram"></i></a>
-                            <!--a(href='https://www.linkedin.com/in/jasonyhchan/')-->
-                            <!--  i.fa.fa-linkedin-->
+                            <a href="https://www.instagram.com/boardinjanzen/"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="mi-text">
-                        <h5>Gavin Rutherford</h5>
-                        <span>Accommodations Specialist</span>
+                        <h5>Jord Janzen</h5>
+                        <span>Operations Coordinator</span>
                     </div>
                 </div>
-                <!--.member-item.set-bg(data-setbg='img/team-member/member-6.jpg')-->
-                <!--  .mi-social-->
-                <!--    .mi-social-inner.bg-gradient-->
-                <!--      a(href='#')-->
-                <!--        i.fa.fa-facebook-->
-                <!--      a(href='#')-->
-                <!--        i.fa.fa-instagram-->
-                <!--      a(href='#')-->
-                <!--        i.fa.fa-twitter-->
-                <!--      a(href='#')-->
-                <!--        i.fa.fa-linkedin-->
-                <!--  .mi-text-->
                 <!--    h5 Jason Chan-->
                 <!--    span Head of Marketing-->
                 <!--.member-item.set-bg(data-setbg='img/team-member/member-7.jpg')-->

@@ -64,8 +64,8 @@ body {
     --footer-text: #a3a3ae;
     --footer-border: #45464e;
 
-    --knox-sky-purple: #9a7dbc;
-    --knox-sky-pink: #e48b9d;
+    --knox-sky-purple-old: #9a7dbc;
+    --knox-sky-pink-old: #e48b9d;
     --knox-mountain-peach: #fe9380;
     --cloud-yellow: #ffe3b4;
     --cloud-pink: #fdaaa1;
@@ -85,21 +85,24 @@ body {
     --darling-lilac: #C5AED5;
     --heath: #542A2A;
 
-    --preloader-wheel1: #5b8fb5;
-    --preloader-wheel2: #fe9380;
-    --preloader-wheel3: #f0b958;
-    --preloader-bg: #24646C;
+    --preloader-wheel1: #71B8DBff;
+    --preloader-wheel2:- #96A675ff;
+    --preloader-wheel3: #DEC100ff;
+    --preloader-bg: #3E8768ff;
 
-    --header-bg: #C5AED5;
+    --header-bg: #96A675ff;
 
-    --button1: #9a7dbc;
-    --button2: #e48b9d;
+    --knox-sky-purple: #3283B2ff;
+    --knox-sky-pink: #3E8768ff;
 
-    --timer1: #9a7dbc;
-    --timer2: #e48b9d;
+    --button1: #3283B2ff;
+    --button2: #3E8768ff;
 
-    --price1: #9a7dbc;
-    --price2: #e48b9d;
+    --timer1: #3283B2ff;
+    --timer2: #3E8768ff;
+
+    --price1: #3283B2ff;
+    --price2: #3E8768ff;
 
     --spanish-orange: #E46D03ff;
     --oxford-blue: #001D41ff;
