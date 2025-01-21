@@ -3,6 +3,7 @@ html(lang='en')
 
     include templates/head
     include templates/preloader
+    include templates/constants
 
 //  Header Section Begin
 html
@@ -25,15 +26,21 @@ html
                             li.active
                                 a(href='./map.html') Map
                             li
-                                a(href='https://drive.google.com/file/d/17T8W2Kwvv46ZHffC4JJaV9yM_WlarIT_/view?usp=drive_link') Rules
+                                a(href=rulebook_link) Rules
+                            li
+                                a(href=nadl_rulebool_link) NADL
                             //li
-                            //    a(href='https://forms.gle/zTXkqkfKjKXMUY5t6') Volunteer
-                    //a.primary-btn.top-btn(href='https://forms.gle/LB6HzmwkSR5xfJgC9')
-                    //    i.fa.fa-ticket
-                    //    |  RACER REGISTRATION
-                    a.primary-btn.top-btn(href='./results.html')
+                            //  a(href=#{volunteer_registration_link}) Volunteer
+                            //a.primary-btn.top-btn(href=#{racer_registration_link})
+                            //  i.fa.fa-ticket
+                            //  |  RACER REGISTRATION
+                            //a.primary-btn.top-btn(href='./results.html')
+                            //  i.fa.fa-ticket
+                            //  |  RESULTS
+                    a.primary-btn.top-btn(href=volunteer_registration_link)
                         i.fa.fa-ticket
-                        |  RESULTS
+                        |  Volunteer
+
                 #mobile-menu-wrap
         //  Header End
 

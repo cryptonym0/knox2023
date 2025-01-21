@@ -1,4 +1,7 @@
-//  About Section Begin 
+include constants
+
+
+//  About Section Begin
 html
   head
   body
@@ -7,9 +10,9 @@ html
         .row
           .col-lg-12
             .section-title
-              h2 KLA & KLC
-              p.f-para The Kelowna Longboard Alliance (KLA) is a group of longboard enthusiasts in Kelowna, British Columbia, Canada. Along with Kamloops Longboard Club (KLC), we work to promote and grow the sport of longboarding in our community. We organize events, races, and meetups to bring the community together and encourage new riders to get involved. We also work to improve the infrastructure and facilities for longboarding in the area, such as building and maintaining downhill runs and working with the local government to ensure the safety of riders.
-              p We also partner and sponsor local riders and organize lessons and workshops to help you improve your skills. In addition to promoting the sport, we also focus on promoting safe and responsible riding habits. Together, the Kamloops Longboard Club and Kelowna Longboard Alliance founded the Knox Mountain Downhill Race, an annual event that aims to promote downhill longboarding in interior British Columbia, Canada
+              h2 KLC & KLA
+              p.f-para The Kamloops Longboard Club (KLC) is a NFPO that was founded in 2013 by a group of longboard enthusiasts in Kamloops, British Columbia, Canada. Along with the Kelowna Longboard Alliance (KLA), we work to promote and grow the sport of downhill skateboarding in the broader Okanagan Community. We organize events, races, and meetups to bring the community together and encourage new riders to get involved. We also work to improve the infrastructure and facilities for longboarding in the area, such as building and maintaining downhill runs and working with the local government to ensure the safety of riders.
+              p We partner and sponsor local riders and organize lessons and workshops to help you improve your skills. In addition to promoting the sport, we also focus on promoting safe and responsible riding habits. Together, the Kamloops Longboard Club and Kelowna Longboard Alliance founded the Knox Mountain Downhill Race, an annual event that aims to promote downhill longboarding in interior British Columbia, Canada
         .row
           .col-lg-6
             .about-pic
@@ -19,16 +22,21 @@ html
             .about-text
               h3 ABOUT KNOX MOUNTAIN DOWNHILL
               p The Knox Mountain Downhill Race is an annual event co-founded by the Kamloops Longboard Club and Kelowna Longboard Alliance.
-              p Our goal is to foster the sport of downhill skateboarding in interior British Columbia, Canada. This event attracts a diverse group of athletes from around the globe, with over 120 participants in the last year.
-              | This year KMDH will take place May 31 - June 1 2025! Stay tuned for information on event format and race classes!
-              | Spectators are welcome and encouraged to come out and support the riders!
+              p Our goal is to foster the sport of downhill skateboarding in interior British Columbia, Canada. This event attracts a diverse group of athletes from around the globe, with over 300 participants in the last 3 years.
+                | #{qualifier_str}
+                | This year KMDH will take place #{dates}! There will be one day of timed qualifying/freeride and one day of racing with open, women's and grom's classes.
+                | Spectators are welcome and encouraged to come out and support the riders!
+
               ul
                 li
                   span.icon_check
                   |  Downhill Skateboarders and Street Lugers of all ages welcome
                 li
                   span.icon_check
-                  |  Round Robin Race Format - Everyone Races Every Round
+                  |  Official Qualifier for Team Canada
+                li
+                  span.icon_check
+                  |  North American Downhill League (NADL) Race Format
                 li
                   span.icon_check
                   |  Open, Womens, and Grom race classes

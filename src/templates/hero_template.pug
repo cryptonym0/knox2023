@@ -1,4 +1,5 @@
-//  Hero Section Begin 
+include constants
+//  Hero Section Begin
 html
   head
   body
@@ -9,16 +10,17 @@ html
             img(class="hero-img" src="img/partner-logo/logo_white.png" alt="KNOX MOUNTAIN DOWNHILL")
             .hero-text
               .hero-text-box
-                span May 31 - June 1 2025, Knox Mountain, Kelowna BC
-                br
+                span #{dates}, Knox Mountain, Kelowna BC
                 br
                 //span Registration Opens April 5, 2024
                 //br
+                span Registration info coming soon!
+                br
+                br
                 //a.primary-btn(href='#sub') Notify Me
+                a.primary-btn(href=volunteer_registration_link) Volunteer Here
                 //br
-                //a.primary-btn(href='https://forms.gle/zTXkqkfKjKXMUY5t6') Volunteer Here
-                ////br
-                a.primary-btn(href='./results.html') See Live Results
+                //a.primary-btn(href='./results.html') See Live Results
                 h2
           .col-lg-5
             img(src='img/hero-right-flower.png' alt)
