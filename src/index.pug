@@ -29,19 +29,19 @@ html(lang='en')
                                     a(href='./map.html') Map
                                 li
                                     a(href=rulebook_link) Rules
-                                li
-                                    a(href=nadl_rulebool_link) NADL
                                 //li
-                                //  a(href=#{volunteer_registration_link}) Volunteer
-                                //a.primary-btn.top-btn(href=#{racer_registration_link})
-                                //  i.fa.fa-ticket
-                                //  |  RACER REGISTRATION
+                                //    a(href=nadl_rulebool_link) NADL
+                                li
+                                    a(href=volunteer_registration_link) Volunteer
+                                a.primary-btn.top-btn(href='./registration.html')
+                                    i.fa.fa-ticket
+                                    |  REGISTER
                                 //a.primary-btn.top-btn(href='./results.html')
                                 //  i.fa.fa-ticket
                                 //  |  RESULTS
-                                a.primary-btn.top-btn(href=volunteer_registration_link)
-                                    i.fa.fa-ticket
-                                    |  Volunteer
+                                //a.primary-btn.top-btn(href=volunteer_registration_link)
+                                //    i.fa.fa-ticket
+                                //    |  Volunteer
                     #mobile-menu-wrap
             //  Header End
     //hero
@@ -53,7 +53,7 @@ html(lang='en')
     ////schedule
     //include templates/schedule_template
     ////pricing
-    //include templates/pricing_template
+    include templates/pricing_template
     include templates/sponsor_confirmed
     ////team member
     //include templates/team_member_template

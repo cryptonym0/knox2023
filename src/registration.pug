@@ -1,0 +1,68 @@
+doctype html
+html(lang='en')
+
+    include templates/head
+    include templates/preloader
+    include templates/constants
+
+    //  Header Section Begin
+    html
+        head
+        body
+            header.header-section
+                .container
+                    .logo
+                        a(href='./index.html')
+                            img(src='img/partner-logo/wordmark_horizontal_black_sm.png' alt='KNOX MOUNTAIN DOWNHILL')
+                    .nav-menu
+                        nav.mainmenu.mobile-menu
+                            ul
+                                li
+                                    a(href='./index.html') Home
+                                li
+                                    a(href='./about-us.html') About
+                                li
+                                    a(href='./sponsors.html') Sponsor KMDH
+                                li
+                                    a(href='./map.html') Map
+                                li
+                                    a(href=rulebook_link) Rules
+                                //li
+                                //    a(href=nadl_rulebool_link) NADL
+                                li
+                                  a(href=volunteer_registration_link) Volunteer
+                                a.primary-btn.top-btn(href='./registration.html')
+                                  i.fa.fa-ticket
+                                  |  REGISTER
+                                //a.primary-btn.top-btn(href='./results.html')
+                                //  i.fa.fa-ticket
+                                //  |  RESULTS
+                                //a.primary-btn.top-btn(href=volunteer_registration_link)
+                                //    i.fa.fa-ticket
+                                //    |  Volunteer
+
+                    #mobile-menu-wrap
+            //  Header End
+
+            // Register Section Begin
+            script(type='text/javascript').
+                var RRReg_eventid="331799";
+                var RRReg_name="Single Registration";
+                var RRReg_key="ePukEitPCPGM";
+                var RRReg_server="https://events2.raceresult.com";
+            script(type='text/javascript' src='https://events2.raceresult.com/registrations/init.js?lang=en')
+            // Register Section end
+    //include templates/register_template
+    include templates/footer_template
+
+    //Js
+// Js Plugins
+script(src='js/jquery-3.3.1.min.js')
+script(src='js/bootstrap.min.js')
+script(src='js/jquery.magnific-popup.min.js')
+script(src='js/jquery.countdown.min.js')
+script(src='js/jquery.slicknav.js')
+script(src='js/owl.carousel.min.js')
+script(src='js/main.js')
+script(src='js/iframe-autoscale.js')
+    //include templates/index_test
